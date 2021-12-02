@@ -1,0 +1,9 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:good-praxis/advent-of-code-2021.git",
+  "author": "Praxis <hello@vulpinecat.com>",
+  "type": "module",
+  "license": "MIT"
+}
