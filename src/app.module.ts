@@ -6,10 +6,12 @@ import { SonarController } from './sonar/sonar.controller';
 import { FileService } from './file/file.service';
 import { NavigationService } from './navigation/navigation.service';
 import { NavigationController } from './navigation/navigation.controller';
+import { RatingsService } from './ratings/ratings.service';
+import { RatingsController } from './ratings/ratings.controller';
 
 @Module({
   imports: [],
-  controllers: [AppController, SonarController, NavigationController],
-  providers: [AppService, SonarService, FileService, NavigationService],
+  controllers: [AppController, SonarController, NavigationController, RatingsController],
+  providers: [AppService, SonarService, FileService, NavigationService, RatingsService],
 })
 export class AppModule {}
