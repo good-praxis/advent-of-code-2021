@@ -8,10 +8,12 @@ import { NavigationService } from './navigation/navigation.service';
 import { NavigationController } from './navigation/navigation.controller';
 import { RatingsService } from './ratings/ratings.service';
 import { RatingsController } from './ratings/ratings.controller';
+import { BingoController } from './bingo/bingo.controller';
+import { BingoService } from './bingo/bingo.service';
 
 @Module({
   imports: [],
-  controllers: [AppController, SonarController, NavigationController, RatingsController],
-  providers: [AppService, SonarService, FileService, NavigationService, RatingsService],
+  controllers: [AppController, SonarController, NavigationController, RatingsController, BingoController],
+  providers: [AppService, SonarService, FileService, NavigationService, RatingsService, BingoService],
 })
 export class AppModule {}
