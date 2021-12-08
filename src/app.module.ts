@@ -12,6 +12,8 @@ import { BingoController } from './bingo/bingo.controller';
 import { BingoService } from './bingo/bingo.service';
 import { HydrothermicVentService } from './hydrothermic-vent/hydrothermic-vent.service';
 import { HydrothermicVentController } from './hydrothermic-vent/hydrothermic-vent.controller';
+import { LanternfishService } from './lanternfish/lanternfish.service';
+import { LanternfishController } from './lanternfish/lanternfish.controller';
 
 @Module({
   imports: [],
@@ -22,6 +24,7 @@ import { HydrothermicVentController } from './hydrothermic-vent/hydrothermic-ven
     RatingsController,
     BingoController,
     HydrothermicVentController,
+    LanternfishController,
   ],
   providers: [
     AppService,
@@ -31,6 +34,7 @@ import { HydrothermicVentController } from './hydrothermic-vent/hydrothermic-ven
     RatingsService,
     BingoService,
     HydrothermicVentService,
+    LanternfishService,
   ],
 })
 export class AppModule {}
