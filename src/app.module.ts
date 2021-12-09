@@ -16,6 +16,8 @@ import { LanternfishService } from './lanternfish/lanternfish.service';
 import { LanternfishController } from './lanternfish/lanternfish.controller';
 import { CrabsController } from './crabs/crabs.controller';
 import { CrabsService } from './crabs/crabs.service';
+import { SevenSegmentDisplayService } from './seven-segment-display/seven-segment-display.service';
+import { SevenSegmentDisplayController } from './seven-segment-display/seven-segment-display.controller';
 
 @Module({
   imports: [],
@@ -28,6 +30,7 @@ import { CrabsService } from './crabs/crabs.service';
     HydrothermicVentController,
     LanternfishController,
     CrabsController,
+    SevenSegmentDisplayController,
   ],
   providers: [
     AppService,
@@ -39,6 +42,7 @@ import { CrabsService } from './crabs/crabs.service';
     HydrothermicVentService,
     LanternfishService,
     CrabsService,
+    SevenSegmentDisplayService,
   ],
 })
 export class AppModule {}
