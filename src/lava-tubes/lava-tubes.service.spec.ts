@@ -34,4 +34,8 @@ describe('LavaTubesService', () => {
     const result = service.getRisk();
     expect(result).toBe(15);
   });
+
+  it('should produce the product of 1134 for the basins', () => {
+    expect(service.getBasins()).toBe(1134);
+  });
 });

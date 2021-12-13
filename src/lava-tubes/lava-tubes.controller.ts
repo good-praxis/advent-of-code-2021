@@ -9,4 +9,9 @@ export class LavaTubesController {
   getRisk() {
     return this.lavaTubesService.getRisk();
   }
+
+  @Get('/basins')
+  getBasins() {
+    return this.lavaTubesService.getBasins();
+  }
 }
