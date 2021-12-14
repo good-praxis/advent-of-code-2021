@@ -20,6 +20,8 @@ import { SevenSegmentDisplayService } from './seven-segment-display/seven-segmen
 import { SevenSegmentDisplayController } from './seven-segment-display/seven-segment-display.controller';
 import { LavaTubesService } from './lava-tubes/lava-tubes.service';
 import { LavaTubesController } from './lava-tubes/lava-tubes.controller';
+import { SyntaxController } from './syntax/syntax.controller';
+import { SyntaxService } from './syntax/syntax.service';
 
 @Module({
   imports: [],
@@ -34,6 +36,7 @@ import { LavaTubesController } from './lava-tubes/lava-tubes.controller';
     CrabsController,
     SevenSegmentDisplayController,
     LavaTubesController,
+    SyntaxController,
   ],
   providers: [
     AppService,
@@ -47,6 +50,7 @@ import { LavaTubesController } from './lava-tubes/lava-tubes.controller';
     CrabsService,
     SevenSegmentDisplayService,
     LavaTubesService,
+    SyntaxService,
   ],
 })
 export class AppModule {}
